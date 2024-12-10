@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    line-height: 1.5;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  .login-btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .main {
+    height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/7a251983-e8ee-47bb-b694-e7676365d580.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .main-content {
+    max-width: 600px;
+  }
+  
+  .main h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .main h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .main-actions {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #e50914;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover, .button:hover {
+    background-color: #f40612;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .footer a {
+    color: #999;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    color: white;
+  }
